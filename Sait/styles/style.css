@@ -1,0 +1,12 @@
+body {
+	
+}
+
+#container {
+	width: 60%;
+	border: 1px solid yellow;
+	height: 100vh;
+	background-image: url('images/background22.png');
+	background-size: 100%;
+
+}

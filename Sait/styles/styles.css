@@ -1,0 +1,242 @@
+#logo {
+    margin: 20px 0px;
+    font-size: 32px;
+}
+
+#kursov_proekt {
+    text-align: center;
+    font-size: 75px;
+    margin: 0px; 
+}
+
+#tema{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px; 
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 5px 0px; 
+}
+
+h1 {
+    font-size: 25px;
+}
+
+#izgotvil {
+    margin-top: 20px;
+    float: left;
+    font-size: 14pt;
+    display: inline-block;
+    margin-left: 250px;
+}
+
+#proveril {
+    margin-top: 20px;
+    margin-right: 250px;
+    float: right;
+    display: inline-block;
+    font-size: 14pt;
+}
+
+#date {
+    margin-top: 170px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(151, 191, 14);
+    border-radius: 10px;
+    float: right;
+    color: white;
+    margin-top: -45px;
+    border: 2px solid white; 
+}
+button > a {
+    font-family: Times New Roman;
+    border-bottom: none;
+    color: white;
+    font-size: 8pt;
+    letter-spacing: 1.5px;
+}
+
+button > a:hover {
+    border-bottom: none;
+    color: black;
+}
+
+body {
+    background: rgba(247, 180, 109, 0.5);
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    margin: 5px 0px;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 100%;
+}
+
+#menu {
+    width: 30%;
+    float: left;
+}
+
+.button > button {
+    background-color: rgb(151, 191, 14);
+    border-radius: 10px;
+    float: left;
+    margin: 0px;
+    border: 2px solid white;
+    margin-right: 5px; 
+}
+
+.button {
+    margin-bottom: 40px;
+}
+
+.button > button > a {
+        color: black;
+}
+
+.button > button > a:hover {
+        color: white;
+}
+
+#annotation_h2 {
+    font-size: 30px;
+}
+
+
+#annotation_left {
+    float: left;
+}
+
+.annotation > button {
+    border:  3px solid red;
+    background-color: rgb(151, 191, 14);
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-top: -42px;
+    margin-bottom: 7px;
+}
+
+#annotation_index {
+    float: right;
+}
+
+#content {
+    width: 68%;
+    height: 98vh;
+    float: right;
+    opacity: 1.0;
+}
+
+#fon {
+    border: 1px solid rgb(151, 191, 14);
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 25px;
+    width: 100%;
+    height: 87vh;
+    float: right;
+    background-image: url('images/background22.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 4vh;
+}
+
+#index{
+    width: 100%;
+    height: 83vh;
+    overflow-y: auto; 
+}
+
+.text-container {
+    font-size: 20pt;
+    color: black;
+    text-align: justify;
+    padding: 5px 15px;
+    margin: 0px;
+}
+
+p { 
+   text-indent: 50px;
+}
+
+#abel {
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.inline {
+    display: inline-flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+a {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    border-bottom: 1px solid gray;
+    padding: 8px;
+}
+
+a:hover {
+    background-color: rgb(151, 191, 14);
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.active {
+    background-color: rgb(151, 191, 14);
+    color: white;
+    font-size: 120%;
+    border-bottom: 2px solid white;
+    font-weight: normal;
+}
+
+li > a {
+    font-size: 14px;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    border-bottom: 0px solid gray;
+    padding: 8px;
+}
+
+ol {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.second {
+    margin-left: 30px;
+    font-style: italic;
+    font-size: 12pt;
+    text-transform: none;
+    font-weight: normal;
+    padding: 4px;
+}
+
+.second_active {
+    background-color: rgba(151, 191, 14, 0.3);
+    border-bottom: 2px solid rgb(151, 191, 14);
+    /*font-weight: bold;*/
+}
