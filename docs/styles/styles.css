@@ -1,17 +1,17 @@
 #logo {
-    margin: 20px 0px;
-    font-size: 32px;
+    margin: 15px 0px;
+    font-size: 30px;
 }
 
 #kursov_proekt {
     text-align: center;
-    font-size: 75px;
+    font-size: 65px;
     margin: 0px;
 }
 
 #tema {
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     margin: 0px;
 }
 
@@ -43,7 +43,7 @@ h1 {
 }
 
 #date {
-    margin-top: 170px;
+    margin-top: 160px;
     text-align: center;
 }
 
@@ -257,4 +257,35 @@ table {
 td {
     text-align: center;
     vertical-align: middle;
+}
+
+#license {
+    text-align: center;
+}
+
+a.bottom_links {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(151, 191, 14, 0.9);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline;
+    border-bottom: none;
+}
+
+#license a:hover {
+    background-color: transparent;
+}
+
+.footer {
+    box-shadow: 0px 50px 0px 50px #000;
+    width: 100%;
+    display: block;
+    background: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+    vertical-align: bottom;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
