@@ -6,18 +6,20 @@
 #kursov_proekt {
     text-align: center;
     font-size: 75px;
-    margin: 0px; 
+    margin: 0px;
 }
 
-#tema{
+#tema {
     text-align: center;
     font-size: 40px;
-    margin: 0px; 
+    margin: 0px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-align: center;
-    margin: 5px 0px; 
+    margin: 5px 0px;
 }
 
 h1 {
@@ -51,9 +53,10 @@ button {
     float: right;
     color: white;
     margin-top: -45px;
-    border: 2px solid white; 
+    border: 2px solid white;
 }
-button > a {
+
+button>a {
     font-family: Times New Roman;
     border-bottom: none;
     color: white;
@@ -61,7 +64,7 @@ button > a {
     letter-spacing: 1.5px;
 }
 
-button > a:hover {
+button>a:hover {
     border-bottom: none;
     color: black;
 }
@@ -90,38 +93,37 @@ h2 {
     float: left;
 }
 
-.button > button {
+.button>button {
     background-color: rgb(151, 191, 14);
     border-radius: 10px;
     float: left;
     margin: 0px;
     border: 2px solid white;
-    margin-right: 5px; 
+    margin-right: 5px;
 }
 
 .button {
     margin-bottom: 40px;
 }
 
-.button > button > a {
-        color: black;
+.button>button>a {
+    color: black;
 }
 
-.button > button > a:hover {
-        color: white;
+.button>button>a:hover {
+    color: white;
 }
 
 #annotation_h2 {
     font-size: 30px;
 }
 
-
 #annotation_left {
     float: left;
 }
 
-.annotation > button {
-    border:  3px solid red;
+.annotation>button {
+    border: 3px solid red;
     background-color: rgb(151, 191, 14);
     border-radius: 10px;
     border: 2px solid white;
@@ -154,10 +156,17 @@ h2 {
     padding-top: 4vh;
 }
 
-#index{
+#index {
     width: 100%;
     height: 83vh;
-    overflow-y: auto; 
+    overflow-y: auto;
+}
+
+#index2 {
+    margin-top: 8px;
+    width: 100%;
+    height: 76vh;
+    overflow-y: auto;
 }
 
 .text-container {
@@ -168,8 +177,8 @@ h2 {
     margin: 0px;
 }
 
-p { 
-   text-indent: 50px;
+p {
+    text-indent: 50px;
 }
 
 #abel {
@@ -210,7 +219,7 @@ a:hover {
     font-weight: normal;
 }
 
-li > a {
+li>a {
     font-size: 14px;
     font-weight: normal;
     color: black;
@@ -239,4 +248,13 @@ ol {
     background-color: rgba(151, 191, 14, 0.3);
     border-bottom: 2px solid rgb(151, 191, 14);
     /*font-weight: bold;*/
+}
+
+table {
+    background-color: white;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
 }
