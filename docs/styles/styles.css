@@ -31,20 +31,39 @@ h1 {
     float: left;
     font-size: 14pt;
     display: inline-block;
-    margin-left: 250px;
+
 }
 
 #proveril {
     margin-top: 20px;
-    margin-right: 250px;
     float: right;
     display: inline-block;
     font-size: 14pt;
 }
 
+#izgotvil_proveril {
+    width: 700px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #date {
-    margin-top: 160px;
     text-align: center;
+    vertical-align: bottom;
+    bottom: 60px;
+    position: absolute;
+    left: 48%;
+}
+
+#button {
+    background-color: rgb(151, 191, 14);
+    border-radius: 10px;
+    color: white;
+    border: 2px solid white;
+    position: absolute;
+    bottom: 65px;
+    right: 7.5%;
 }
 
 button {
